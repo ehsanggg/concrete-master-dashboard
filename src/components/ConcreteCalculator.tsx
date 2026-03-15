@@ -63,7 +63,7 @@ export function ConcreteCalculator() {
     <main className="flex-1 p-4 md:p-8 lg:p-12 overflow-y-auto min-h-screen">
       {/* Header */}
       <header className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
-        <div className="pl-10 md:pl-0">
+        <div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground">Material Estimator</h1>
           <p className="text-muted-foreground mt-1">Professional grade concrete volume and material breakdown.</p>
         </div>
@@ -81,6 +81,29 @@ export function ConcreteCalculator() {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
         {/* Inputs */}
         <div className="lg:col-span-5 space-y-6 no-print">
+          {/* Specifications */}
+          <section className="surface-card p-6">
+            <h2 className="font-bold text-lg flex items-center gap-2 mb-6">
+              <FlaskConical className="w-5 h-5 text-accent" />
+              Specifications
+            </h2>
+            <div>
+              <label className="label-upper">Concrete Grade</label>
+              <select
+                value={gradeIndex}
+                onChange={(e) => setGradeIndex(Number(e.target.value))}
+                className="input-field pr-3 appearance-none cursor-pointer"
+              >
+                {CONCRETE_GRADES.map((g, i) => (
+                  <option key={g.value} value={i}>{g.label}</option>
+                ))}
+              </select>
+              <p className="mt-2 text-sm text-muted-foreground italic">
+                Ratio: {grade.ratios[0]} Cement : {grade.ratios[1]} Sand : {grade.ratios[2]} Aggregate
+              </p>
+            </div>
+          </section>
+
           {/* Dimensions */}
           <section className="surface-card p-6">
             <div className="flex items-center justify-between mb-6">
@@ -111,29 +134,6 @@ export function ConcreteCalculator() {
               <DimensionInput label="Length" primaryValue={dims.lengthPrimary} secondaryValue={dims.lengthSecondary} onPrimaryChange={(v) => updateDim('lengthPrimary', v)} onSecondaryChange={(v) => updateDim('lengthSecondary', v)} unit={unit} />
               <DimensionInput label="Width" primaryValue={dims.widthPrimary} secondaryValue={dims.widthSecondary} onPrimaryChange={(v) => updateDim('widthPrimary', v)} onSecondaryChange={(v) => updateDim('widthSecondary', v)} unit={unit} />
               <DimensionInput label="Depth / Thickness" primaryValue={dims.depthPrimary} secondaryValue={dims.depthSecondary} onPrimaryChange={(v) => updateDim('depthPrimary', v)} onSecondaryChange={(v) => updateDim('depthSecondary', v)} unit={unit} />
-            </div>
-          </section>
-
-          {/* Specifications */}
-          <section className="surface-card p-6">
-            <h2 className="font-bold text-lg flex items-center gap-2 mb-6">
-              <FlaskConical className="w-5 h-5 text-accent" />
-              Specifications
-            </h2>
-            <div>
-              <label className="label-upper">Concrete Grade</label>
-              <select
-                value={gradeIndex}
-                onChange={(e) => setGradeIndex(Number(e.target.value))}
-                className="input-field pr-3 appearance-none cursor-pointer"
-              >
-                {CONCRETE_GRADES.map((g, i) => (
-                  <option key={g.value} value={i}>{g.label}</option>
-                ))}
-              </select>
-              <p className="mt-2 text-sm text-muted-foreground italic">
-                Ratio: {grade.ratios[0]} Cement : {grade.ratios[1]} Sand : {grade.ratios[2]} Aggregate
-              </p>
             </div>
           </section>
 

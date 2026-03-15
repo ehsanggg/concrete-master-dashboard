@@ -1,4 +1,3 @@
-import { Sidebar } from '@/components/Sidebar';
 import { ConcreteCalculator } from '@/components/ConcreteCalculator';
 
 const Index = () => {
@@ -6,8 +5,7 @@ const Index = () => {
     <>
       <title>Concrete Estimator Pro | concretecalculators.io</title>
       <meta name="description" content="Professional concrete material estimator. Calculate cement, sand, and aggregate quantities with precision for any construction project." />
-      <div className="min-h-screen flex flex-col md:flex-row">
-        <Sidebar />
+      <div className="min-h-screen">
         <ConcreteCalculator />
       </div>
     </>

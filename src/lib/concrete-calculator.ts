@@ -108,7 +108,7 @@ export function calculate(
   const sandKg = sandM3 * settings.sandDensity;
   const aggKg = aggM3 * settings.aggregateDensity;
 
-  const cementBags = Math.ceil(cementKg / settings.bagWeightKg);
+  const cementBags = cementKg / settings.bagWeightKg;
 
   let cost: CalculationResult['cost'];
   if (prices && (prices.cementPerBag > 0 || prices.sandPerTon > 0 || prices.aggregatePerTon > 0)) {
