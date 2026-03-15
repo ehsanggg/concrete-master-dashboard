@@ -40,7 +40,7 @@ export function ResultCards({ result }: ResultCardsProps) {
         </p>
         <div className="flex items-baseline gap-2 mt-2">
           <span className="text-4xl font-black tabular-nums text-foreground">
-            {result.cement.bags}
+            {result.cement.bags.toFixed(2)}
           </span>
           <span className="text-muted-foreground font-medium">Bags</span>
         </div>
