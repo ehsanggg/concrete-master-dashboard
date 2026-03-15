@@ -35,9 +35,9 @@ export interface AdvancedSettings {
 export const DEFAULT_SETTINGS: AdvancedSettings = {
   wastagePercent: 52.4,
   bagWeightKg: 50,
-  cementDensity: 1440,
-  sandDensity: 1600,
-  aggregateDensity: 1500,
+  cementDensity: 1428.57, // 1 bag = 0.035 m³ → 50/0.035 = 1428.57 kg/m³
+  sandDensity: 1550,
+  aggregateDensity: 1350,
 };
 
 export interface PriceInputs {
