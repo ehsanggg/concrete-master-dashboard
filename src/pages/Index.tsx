@@ -1,12 +1,20 @@
 import { ConcreteCalculator } from '@/components/ConcreteCalculator';
+import { HeroHeader } from '@/components/HeroHeader';
+import { HowToUse } from '@/components/HowToUse';
+import { DetailedContent } from '@/components/DetailedContent';
+import { Footer } from '@/components/Footer';
 
 const Index = () => {
   return (
     <>
-      <title>Concrete Estimator Pro | concretecalculators.io</title>
-      <meta name="description" content="Professional concrete material estimator. Calculate cement, sand, and aggregate quantities with precision for any construction project." />
-      <div className="min-h-screen">
+      <title>Concrete Calculator - Free Cement, Sand & Aggregate Estimator</title>
+      <meta name="description" content="Free concrete calculator to estimate cement bags, sand and aggregate quantities. Uses standard civil engineering formulas. Supports M5 to M25 grades with cost estimation." />
+      <div className="min-h-screen bg-background">
+        <HeroHeader />
         <ConcreteCalculator />
+        <HowToUse />
+        <DetailedContent />
+        <Footer />
       </div>
     </>
   );
