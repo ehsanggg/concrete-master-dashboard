@@ -5,6 +5,7 @@ import { ResultCards } from './ResultCards';
 import { MaterialTable } from './MaterialTable';
 import { FormulaSection } from './FormulaSection';
 import { CostSummary } from './CostSummary';
+import { CalculationBreakdown } from './CalculationBreakdown';
 import {
   calculate,
   CONCRETE_GRADES,
