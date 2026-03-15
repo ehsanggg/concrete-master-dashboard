@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
-import { Calculator, Zap, Shield } from 'lucide-react';
+import { Zap, Shield } from 'lucide-react';
+import logo from '@/assets/logo.png';
 
 export function HeroHeader() {
   return (
@@ -19,6 +20,7 @@ export function HeroHeader() {
           transition={{ duration: 0.5 }}
           className="text-center"
         >
+          <img src={logo} alt="Concrete Calculators Logo" className="h-24 md:h-32 mx-auto mb-6" />
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-accent/20 text-accent text-sm font-bold mb-6">
             <Zap className="w-3.5 h-3.5" />
             Free & Accurate Concrete Calculator
