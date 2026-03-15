@@ -211,6 +211,7 @@ export function ConcreteCalculator() {
               <MaterialTable result={result} />
               <CostSummary result={result} />
               <FormulaSection result={result} unit={unit} grade={grade} settings={settings} />
+              <CalculationBreakdown result={result} unit={unit} grade={grade} settings={settings} />
             </>
           )}
         </div>
