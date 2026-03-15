@@ -63,7 +63,7 @@ export function ConcreteCalculator() {
     <main className="flex-1 p-4 md:p-8 lg:p-12 overflow-y-auto min-h-screen">
       {/* Header */}
       <header className="mb-8 flex flex-col md:flex-row md:items-end justify-between gap-4">
-        <div className="pl-10 md:pl-0">
+        <div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground">Material Estimator</h1>
           <p className="text-muted-foreground mt-1">Professional grade concrete volume and material breakdown.</p>
         </div>

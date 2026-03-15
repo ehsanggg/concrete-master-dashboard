@@ -40,11 +40,14 @@ export function MaterialTable({ result }: MaterialTableProps) {
             </table>
           </div>
         </div>
-        <div className="w-full lg:w-48 flex flex-col items-center justify-center lg:border-l lg:border-border lg:pl-8">
+        <div className="w-full lg:w-56 flex flex-col items-center justify-center lg:border-l lg:border-border lg:pl-8">
           <MaterialChart
             cement={result.cement.m3}
             sand={result.sand.m3}
             aggregate={result.aggregate.m3}
+            cementKg={result.cement.kg}
+            sandKg={result.sand.kg}
+            aggregateKg={result.aggregate.kg}
           />
           <p className="text-[10px] text-muted-foreground uppercase font-bold mt-2 tracking-wider">
             Volume Distribution
