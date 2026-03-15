@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { Calculator, Zap, Shield } from 'lucide-react';
-import logo from '@/assets/logo.png';
 
 export function HeroHeader() {
   return (
