@@ -1,9 +1,22 @@
 import { motion } from 'framer-motion';
-import { Calculator, Zap, Shield } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { Calculator, Zap, Shield, Wrench } from 'lucide-react';
 
 export function HeroHeader() {
   return (
-    <section className="relative overflow-hidden bg-primary text-primary-foreground py-16 px-4 md:px-8 lg:px-12">
+    <section className="relative overflow-hidden bg-primary text-primary-foreground pt-20 pb-16 px-4 md:px-8 lg:px-12">
+      {/* Nav */}
+      <div className="absolute top-0 left-0 right-0 px-4 md:px-8 lg:px-12 py-4 flex items-center justify-between z-10">
+        <Link to="/" className="font-black text-lg text-primary-foreground">ConcreteCalculators</Link>
+        <div className="flex items-center gap-4">
+          <Link to="/tools" className="flex items-center gap-1.5 text-sm font-bold text-primary-foreground/70 hover:text-primary-foreground transition-colors">
+            <Wrench className="w-4 h-4" /> Tools
+          </Link>
+          <Link to="/about" className="text-sm font-medium text-primary-foreground/70 hover:text-primary-foreground transition-colors">About</Link>
+          <Link to="/contact" className="text-sm font-medium text-primary-foreground/70 hover:text-primary-foreground transition-colors">Contact</Link>
+        </div>
+      </div>
+
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute inset-0" style={{

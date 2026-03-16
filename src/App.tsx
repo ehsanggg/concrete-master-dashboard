@@ -33,6 +33,8 @@ const App = () => (
             <Route path="/cookie-policy" element={<CookiePolicy />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/tools" element={<Tools />} />
+            <Route path="/tools/concrete-slab-calculator" element={<ConcreteSlabCalculator />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
