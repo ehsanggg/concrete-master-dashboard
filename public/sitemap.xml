@@ -19,6 +19,18 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://concretecalculators.io/tools</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://concretecalculators.io/tools/slab-calculator</loc>
+    <lastmod>2026-03-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://concretecalculators.io/privacy-policy</loc>
     <lastmod>2026-03-15</lastmod>
     <changefreq>yearly</changefreq>

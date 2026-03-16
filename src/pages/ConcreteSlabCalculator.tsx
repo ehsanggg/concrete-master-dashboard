@@ -64,8 +64,8 @@ const ConcreteSlabCalculator = () => {
 
   return (
     <>
-      <title>Concrete Slab Calculator - Free Volume & Cost Estimator</title>
-      <meta name="description" content="Free concrete slab calculator for driveways, patios and flatwork. Calculate exact cubic yards/meters with cost estimation. Supports imperial and metric units." />
+      <title>Concrete Slab Calculator — Free Cubic Yard & Cost Estimator</title>
+      <meta name="description" content="Free concrete slab calculator for driveways, patios and flatwork. Calculate exact cubic yards, cubic meters, bag counts and cost estimates. ACI-standard formulas with imperial & metric support." />
       <div className="min-h-screen bg-background">
         {/* Header */}
         <section className="relative overflow-hidden bg-primary text-primary-foreground py-12 px-4 md:px-8">

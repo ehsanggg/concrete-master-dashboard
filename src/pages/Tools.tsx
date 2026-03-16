@@ -8,7 +8,7 @@ const tools = [
     title: 'Concrete Slab Calculator',
     description: 'Calculate exact concrete volume for driveways, patios, and flatwork.',
     icon: Layers,
-    path: '/tools/concrete-slab-calculator',
+    path: '/tools/slab-calculator',
   },
   {
     title: 'Concrete Material Calculator',
