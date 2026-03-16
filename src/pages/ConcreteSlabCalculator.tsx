@@ -247,6 +247,7 @@ const ConcreteSlabCalculator = () => {
           </div>
         </section>
 
+        <SlabCalculatorContent />
         <Footer />
       </div>
     </>
