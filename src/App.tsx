@@ -13,6 +13,8 @@ const Disclaimer = lazy(() => import("./pages/Disclaimer.tsx"));
 const CookiePolicy = lazy(() => import("./pages/CookiePolicy.tsx"));
 const About = lazy(() => import("./pages/About.tsx"));
 const Contact = lazy(() => import("./pages/Contact.tsx"));
+const Tools = lazy(() => import("./pages/Tools.tsx"));
+const ConcreteSlabCalculator = lazy(() => import("./pages/ConcreteSlabCalculator.tsx"));
 
 const queryClient = new QueryClient();
 
