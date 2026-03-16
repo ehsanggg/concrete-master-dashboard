@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Layers, Shield, ArrowLeft } from 'lucide-react';
 import { Switch } from '@/components/ui/switch';
 import { Label } from '@/components/ui/label';
+import { SlabCalculatorContent } from '@/components/SlabCalculatorContent';
 import { Footer } from '@/components/Footer';
 
 type Unit = 'imperial' | 'metric';
