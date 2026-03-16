@@ -23,6 +23,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider mb-3 text-primary-foreground/60">Resources</h3>
             <ul className="space-y-2 text-sm">
+              <li><Link to="/tools" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Tools</Link></li>
               <li><Link to="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Contact</Link></li>
             </ul>
