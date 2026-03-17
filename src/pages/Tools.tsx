@@ -11,6 +11,12 @@ const tools = [
     path: '/tools/slab-calculator',
   },
   {
+    title: 'Concrete Bag Calculator',
+    description: 'Find out exactly how many bags of concrete you need for any project.',
+    icon: Calculator,
+    path: '/tools/bag-calculator',
+  },
+  {
     title: 'Concrete Material Calculator',
     description: 'Estimate cement, sand & aggregate quantities for any concrete grade.',
     icon: Calculator,
