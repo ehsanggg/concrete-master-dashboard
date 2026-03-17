@@ -6,6 +6,7 @@ const PrivacyPolicy = () => (
   <>
     <title>Privacy Policy | Concrete Calculators</title>
     <meta name="description" content="Privacy Policy for concretecalculators.io - Learn how we handle your data." />
+    <link rel="canonical" href="https://www.concretecalculators.io/privacy-policy" />
     <div className="min-h-screen bg-background">
       <div className="max-w-3xl mx-auto px-4 py-12">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors">
