@@ -99,7 +99,7 @@ export function BagCalculatorContent() {
           <div className="surface-card p-5 mb-4">
             <h4 className="font-bold text-foreground mb-2">ACI / ASTM Reference</h4>
             <p className="text-sm text-muted-foreground">
-              <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30201&Language=English" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 302.1R-15</a> recommends a minimum 5% overage on all concrete pours to account for sub-grade irregularities, formwork leakage, and mixer residue. For bag pours where you cannot top up mid-job, 10% is the professional standard.
+              ACI 302.1R-15 recommends a minimum 5% overage on all concrete pours to account for sub-grade irregularities, formwork leakage, and mixer residue. For bag pours where you cannot top up mid-job, 10% is the professional standard.
             </p>
           </div>
 
@@ -246,7 +246,7 @@ export function BagCalculatorContent() {
             Concrete Bags for a 10×10, 12×12, 15×15 and 20×20 Slab
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            The table below covers every common residential slab size at 4-inch and 6-inch depths with all three bag sizes. All counts include a 10% waste factor per <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30201&Language=English" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 302.1R</a>. Use our <Link to="/tools/slab-calculator" className="text-accent font-bold hover:underline">Concrete Slab Calculator</Link> to generate precise figures for custom dimensions.
+            The table below covers every common residential slab size at 4-inch and 6-inch depths with all three bag sizes. All counts include a 10% waste factor per ACI 302.1R. Use our <Link to="/tools/slab-calculator" className="text-accent font-bold hover:underline">Concrete Slab Calculator</Link> to generate precise figures for custom dimensions.
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm">
@@ -373,7 +373,7 @@ export function BagCalculatorContent() {
           </ul>
 
           <p className="text-xs text-muted-foreground">
-            Reference: <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30516" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ACI 305R-16</a> (Hot Weather) and <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30616" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ACI 306R-16</a> (Cold Weather).
+            Reference: ACI 305R-16 (Hot Weather) and <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30616" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ACI 306R-16</a> (Cold Weather).
           </p>
         </motion.div>
 
