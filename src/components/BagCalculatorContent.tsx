@@ -427,7 +427,6 @@ export function BagCalculatorContent() {
         <motion.div {...fadeUp}>
           <h2 className="text-xl font-bold text-foreground mb-4">References</h2>
           <ul className="text-sm text-muted-foreground space-y-2 list-disc list-inside">
-            <li><a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30201&Language=English" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ACI 302.1R-15</a>: Guide for Concrete Floor and Slab Construction — American Concrete Institute</li>
             <li><a href="https://www.concrete.org/store/productdetail.aspx?ItemID=31819" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ACI 318-19</a>: Building Code Requirements for Structural Concrete</li>
             <li><a href="https://www.astm.org/c0387_c0387m-17.html" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">ASTM C387</a>: Standard Specification for Packaged, Dry, Combined Materials</li>
             <li><a href="https://www.cement.org/" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">Portland Cement Association</a>: Design and Control of Concrete Mixtures, 15th Edition</li>
