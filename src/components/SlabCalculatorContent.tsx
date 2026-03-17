@@ -421,9 +421,6 @@ export function SlabCalculatorContent() {
 
           <h3 className="text-lg font-bold text-foreground mb-3">References</h3>
           <ul className="text-xs text-muted-foreground space-y-1">
-            <li>• <a href="https://www.concrete.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">ACI 302.1R-15: Guide for Concrete Floor and Slab Construction — ACI Standards</a></li>
-            <li>• <a href="https://www.concrete.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">ACI 318-19: Building Code Requirements for Structural Concrete — ACI Standards</a></li>
-            <li>• <a href="https://www.concrete.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">ACI 308R-16: Guide to External Curing of Concrete — ACI Standards</a></li>
             <li>• <a href="https://www.concrete.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">ACI 330R-14: Guide for the Design and Construction of Concrete Parking Lots — ACI Standards</a></li>
             <li>• <a href="https://www.cement.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">Portland Cement Association: Design and Control of Concrete Mixtures</a></li>
             <li>• <a href="https://www.astm.org/" target="_blank" rel="noopener noreferrer" className="hover:underline">ASTM C387: Standard Specification for Packaged, Dry, Combined Materials</a></li>
