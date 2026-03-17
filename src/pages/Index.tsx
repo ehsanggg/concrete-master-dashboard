@@ -9,6 +9,7 @@ const Index = () => {
     <>
       <title>Concrete Calculator - Free Cement, Sand & Aggregate Estimator</title>
       <meta name="description" content="Free concrete calculator to estimate cement bags, sand and aggregate quantities. Uses standard civil engineering formulas. Supports M5 to M25 grades with cost estimation." />
+      <link rel="canonical" href="https://www.concretecalculators.io/" />
       <div className="min-h-screen bg-background">
         <HeroHeader />
         <ConcreteCalculator />

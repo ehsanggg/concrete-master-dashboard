@@ -11,6 +11,12 @@ const tools = [
     path: '/tools/slab-calculator',
   },
   {
+    title: 'Concrete Bag Calculator',
+    description: 'Find out exactly how many bags of concrete you need for any project.',
+    icon: Calculator,
+    path: '/tools/bag-calculator',
+  },
+  {
     title: 'Concrete Material Calculator',
     description: 'Estimate cement, sand & aggregate quantities for any concrete grade.',
     icon: Calculator,
@@ -23,6 +29,7 @@ const Tools = () => {
     <>
       <title>Free Construction Calculators & Tools | Concrete Calculators</title>
       <meta name="description" content="Browse our collection of free construction calculators. Estimate concrete volumes, materials, costs and more with accurate industry-standard formulas." />
+      <link rel="canonical" href="https://www.concretecalculators.io/tools" />
       <div className="min-h-screen bg-background">
         {/* Hero */}
         <section className="relative overflow-hidden bg-primary text-primary-foreground py-16 px-4 md:px-8">

@@ -6,6 +6,7 @@ const TermsOfService = () => (
   <>
     <title>Terms of Service | Concrete Calculators</title>
     <meta name="description" content="Terms of Service for concretecalculators.io." />
+    <link rel="canonical" href="https://www.concretecalculators.io/terms-of-service" />
     <div className="min-h-screen bg-background">
       <div className="max-w-3xl mx-auto px-4 py-12">
         <Link to="/" className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-8 transition-colors">
