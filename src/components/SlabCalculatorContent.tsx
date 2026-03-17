@@ -73,7 +73,7 @@ export function SlabCalculatorContent() {
             The 'Hidden' Waste Factor — Why ACI 302.1R Recommends 5–10% Extra
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Every experienced contractor orders more concrete than their calculator says they need. This is not guesswork — it is a principle codified in <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30201&Language=English" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 302.1R</a>, the American Concrete Institute's Guide for Concrete Floor and Slab Construction.
+            Every experienced contractor orders more concrete than their calculator says they need. This is not guesswork — it is a principle codified in ACI 302.1R, the American Concrete Institute's Guide for Concrete Floor and Slab Construction.
           </p>
 
           <div className="surface-card p-5 mb-4">
@@ -141,7 +141,7 @@ export function SlabCalculatorContent() {
 
           <h3 className="text-xl font-bold text-foreground mb-3">6-Inch Slabs: Heavy-Load and Commercial Standard</h3>
           <p className="text-muted-foreground leading-relaxed mb-3">
-            At 6 inches, the slab transitions into a structural element capable of supporting heavy vehicles, forklifts, and equipment loads. <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=33014" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 330R-14</a> specifies 6 inches as the minimum for standard vehicular parking, with 7–8 inches for truck traffic.
+            At 6 inches, the slab transitions into a structural element capable of supporting heavy vehicles, forklifts, and equipment loads. ACI 330R-14 specifies 6 inches as the minimum for standard vehicular parking, with 7–8 inches for truck traffic.
           </p>
           <ul className="text-sm text-muted-foreground space-y-1 mb-4 list-disc list-inside">
             <li>Typical applications: Two-car driveway, commercial parking, loading dock apron</li>
@@ -237,7 +237,7 @@ export function SlabCalculatorContent() {
             Sub-Base Preparation — The Foundation Your Calculation Depends On
           </h2>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            Accurate volume calculations mean nothing if the surface being filled is uneven or unstable. <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=30201&Language=English" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 302.1R-15</a> dedicates an entire chapter to sub-grade and sub-base preparation because settlement cracks in slabs are more commonly caused by sub-base failure than concrete mix deficiencies.
+            Accurate volume calculations mean nothing if the surface being filled is uneven or unstable. ACI 302.1R-15 dedicates an entire chapter to sub-grade and sub-base preparation because settlement cracks in slabs are more commonly caused by sub-base failure than concrete mix deficiencies.
           </p>
 
           <h3 className="text-xl font-bold text-foreground mb-3">Compacted Gravel Sub-Base: Depth and Material Specification</h3>
@@ -385,7 +385,7 @@ export function SlabCalculatorContent() {
             <div>
               <h3 className="text-lg font-bold text-foreground mb-2">Is a 4-inch slab strong enough for a car?</h3>
               <p className="text-muted-foreground leading-relaxed">
-                A 4-inch slab is marginal for vehicle loads. Passenger cars can be accommodated by a well-constructed 4-inch slab with proper sub-base, but <a href="https://www.concrete.org/store/productdetail.aspx?ItemID=33014" target="_blank" rel="noopener noreferrer" className="text-accent font-bold hover:underline">ACI 330R-14</a> recommends 5 inches minimum for regular vehicle traffic. For driveways, specify 5–6 inches and 3,500 PSI concrete.
+                A 4-inch slab is marginal for vehicle loads. Passenger cars can be accommodated by a well-constructed 4-inch slab with proper sub-base, but ACI 330R-14 recommends 5 inches minimum for regular vehicle traffic. For driveways, specify 5–6 inches and 3,500 PSI concrete.
               </p>
             </div>
             <div>
