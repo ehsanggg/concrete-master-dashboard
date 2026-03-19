@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Calculator, ArrowRight, Layers } from 'lucide-react';
+import { Calculator, ArrowRight, Layers, Truck } from 'lucide-react';
 import { Footer } from '@/components/Footer';
 
 const tools = [
@@ -15,6 +15,12 @@ const tools = [
     description: 'Find out exactly how many bags of concrete you need for any project.',
     icon: Calculator,
     path: '/tools/bag-calculator',
+  },
+  {
+    title: 'Concrete Yard Calculator',
+    description: 'Calculate exact cubic yards for ready-mix delivery and estimate truckloads.',
+    icon: Truck,
+    path: '/tools/yard-calculator',
   },
   {
     title: 'Concrete Material Calculator',
