@@ -17,6 +17,12 @@ const tools = [
     path: '/tools/bag-calculator',
   },
   {
+    title: 'Concrete Yard Calculator',
+    description: 'Calculate exact cubic yards for ready-mix delivery and estimate truckloads.',
+    icon: Truck,
+    path: '/tools/yard-calculator',
+  },
+  {
     title: 'Concrete Material Calculator',
     description: 'Estimate cement, sand & aggregate quantities for any concrete grade.',
     icon: Calculator,

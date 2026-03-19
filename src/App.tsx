@@ -38,6 +38,7 @@ const App = () => (
             <Route path="/tools" element={<Tools />} />
             <Route path="/tools/slab-calculator" element={<ConcreteSlabCalculator />} />
             <Route path="/tools/bag-calculator" element={<ConcreteBagCalculator />} />
+            <Route path="/tools/yard-calculator" element={<ConcreteYardCalculator />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Suspense>
