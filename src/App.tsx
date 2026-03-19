@@ -16,6 +16,7 @@ const Contact = lazy(() => import("./pages/Contact.tsx"));
 const Tools = lazy(() => import("./pages/Tools.tsx"));
 const ConcreteSlabCalculator = lazy(() => import("./pages/ConcreteSlabCalculator.tsx"));
 const ConcreteBagCalculator = lazy(() => import("./pages/ConcreteBagCalculator.tsx"));
+const ConcreteYardCalculator = lazy(() => import("./pages/ConcreteYardCalculator.tsx"));
 
 const queryClient = new QueryClient();
 
